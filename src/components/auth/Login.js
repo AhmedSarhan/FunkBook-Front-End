@@ -16,7 +16,7 @@ const Login = () => {
       password: data.password,
     };
     await axios
-      .post('http://localhost:4000/login', { ...loginData })
+      .post('/login', { ...loginData })
       .then((res) => {
         if (res.data) {
           localStorage.setItem('socialMediaToken', res.data.token);

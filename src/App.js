@@ -21,8 +21,7 @@ const About = React.lazy(() => import('./views/About'));
 const Terms = React.lazy(() => import('./views/Terms'));
 const NewPost = React.lazy(() => import('./views/NewPost'));
 
-axios.defaults.baseURL =
-  process.env.REACT_APP_BACK_END_URL || 'http://localhost:4000';
+axios.defaults.baseURL = process.env.REACT_APP_BACK_END_URL; //|| 'http://localhost:4000';
 
 console.log(process.env.REACT_APP_BACK_END_URL);
 function App() {

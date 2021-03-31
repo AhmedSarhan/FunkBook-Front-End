@@ -13,7 +13,7 @@ const Register = () => {
       password: data.password,
     };
     await axios
-      .post('http://localhost:4000/register', { ...newUser })
+      .post('/register', { ...newUser })
       .then((res) => {
         console.log(res);
         e.target.reset();

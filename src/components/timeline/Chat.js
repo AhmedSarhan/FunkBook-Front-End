@@ -19,7 +19,7 @@ const Chat = () => {
   };
   const chatLog = useRef(null);
   useEffect(() => {
-    socket.current = io('http://localhost:4000');
+    socket.current = io(process.env.REACT_APP_BACK_END_URL);
 
     socket.current.on('chatFromServer', (message) => {
       setChatMessages([...chatMessages, message]);
