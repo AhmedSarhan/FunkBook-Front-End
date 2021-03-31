@@ -9,10 +9,9 @@ const UnAuthenticated = () => {
         <div className="col-lg-7 py-3 py-md-5">
           <h1 className="display-3">Remember Writing?</h1>
           <p className="lead text-muted">
-            Are you sick of short tweets and impersonal &ldquo;shared&rdquo;
-            posts that are reminiscent of the late 90&rsquo;s email forwards? We
-            believe getting back to actually writing is the key to enjoying the
-            internet again.
+            This is a Social Media App to share posts, chat with others created
+            with React.js, Node.js, MongoDb, and Socket.io Wish you a fun time
+            with us
           </p>
         </div>
         <div className="col-lg-5 pl-lg-5 pb-3 py-lg-5">

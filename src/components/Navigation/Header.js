@@ -12,7 +12,7 @@ const Header = () => {
       <div className="container d-flex flex-column flex-md-row align-items-center p-3">
         <h4 className="my-0 mr-md-auto font-weight-normal">
           <NavLink to="/" className="text-white">
-            ComplexApp
+            FunkBook
           </NavLink>
         </h4>
         {loggedInState ? <LoggedIn /> : <Login />}

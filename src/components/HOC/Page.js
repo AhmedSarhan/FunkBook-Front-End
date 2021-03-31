@@ -5,7 +5,7 @@ import { AppContext } from '../../context/AppContext';
 
 const Page = (props) => {
   useEffect(() => {
-    document.title = `${props.title} | ComplexApp`;
+    document.title = `${props.title} | FunkBook`;
     window.scrollTo(0, 0);
   }, [props.title]);
   const {

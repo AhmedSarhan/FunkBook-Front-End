@@ -20,7 +20,7 @@ const Footer = () => {
       <p className="m-0">
         Copyright &copy; 2020{' '}
         <NavLink to="/" className="text-muted">
-          ComplexApp
+          FunkBook
         </NavLink>
         . All rights reserved.
       </p>
