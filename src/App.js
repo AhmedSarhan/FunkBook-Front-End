@@ -22,6 +22,8 @@ const Terms = React.lazy(() => import('./views/Terms'));
 const NewPost = React.lazy(() => import('./views/NewPost'));
 
 axios.defaults.baseURL = process.env.BACK_END_URL || 'http://localhost:4000';
+
+console.log(process.env.BACK_END_URL);
 function App() {
   const { flashMessage, loggedInState, isSearchOpen } = useContext(AppContext);
 
