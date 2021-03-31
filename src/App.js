@@ -23,7 +23,6 @@ const NewPost = React.lazy(() => import('./views/NewPost'));
 
 axios.defaults.baseURL = process.env.REACT_APP_BACK_END_URL; //|| 'http://localhost:4000';
 
-console.log(process.env.REACT_APP_BACK_END_URL);
 function App() {
   const { flashMessage, loggedInState, isSearchOpen } = useContext(AppContext);
 
